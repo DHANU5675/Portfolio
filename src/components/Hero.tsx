@@ -39,16 +39,17 @@ const Hero: React.FC = () => {
             </span>
           </div>
 
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 animate-fade-in-up animation-delay-300">
-            <span className="text-white">Sarah</span>
-            <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600">
-              Chen
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in-up animation-delay-300 leading-tight">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600">
+              DHANU VARA PRASAD
+            </span>
+            <span className="block text-white text-2xl md:text-4xl">
+              LANDA
             </span>
           </h1>
           
           <div className="text-xl md:text-2xl text-gray-300 mb-6 animate-fade-in-up animation-delay-600">
-            <span className="text-purple-400">Creative Developer</span> & <span className="text-pink-400">Digital Artist</span>
+            <span className="text-purple-400">Creative Developer</span> 
           </div>
           
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in-up animation-delay-900">
@@ -65,16 +66,20 @@ const Hero: React.FC = () => {
               <span>Explore My Work</span>
               <ArrowDown className="w-4 h-4 group-hover:translate-y-1 transition-transform duration-300" />
             </button>
-            <button className="px-8 py-4 border-2 border-purple-500 text-purple-400 font-semibold rounded-lg hover:bg-purple-500/10 hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2">
+            <a
+              href="/Dhanu_Resume.pdf"
+              download
+              className="px-8 py-4 border-2 border-purple-500 text-purple-400 font-semibold rounded-lg hover:bg-purple-500/10 hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2"
+            >
               <Download className="w-4 h-4" />
-              <span>Download CV</span>
-            </button>
+              <span>Download Resume</span>
+            </a>
           </div>
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 animate-fade-in-up animation-delay-1500">
             <a
-              href="https://github.com"
+              href="https://github.com/DHANU5675"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-gray-800 border border-gray-700 rounded-lg hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 hover:scale-110 group"
@@ -82,7 +87,7 @@ const Hero: React.FC = () => {
               <Github className="w-6 h-6 text-gray-400 group-hover:text-purple-400 transition-colors" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/dhanu09"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-gray-800 border border-gray-700 rounded-lg hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 hover:scale-110 group"
@@ -90,7 +95,7 @@ const Hero: React.FC = () => {
               <Linkedin className="w-6 h-6 text-gray-400 group-hover:text-purple-400 transition-colors" />
             </a>
             <a
-              href="mailto:sarah@example.com"
+              href="mailto:landa.dhanu7@gmail.com"
               className="p-3 bg-gray-800 border border-gray-700 rounded-lg hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 hover:scale-110 group"
             >
               <Mail className="w-6 h-6 text-gray-400 group-hover:text-purple-400 transition-colors" />

@@ -16,7 +16,7 @@ const About: React.FC = () => {
     {
       icon: Target,
       title: 'Precision',
-      description: 'Attention to detail in every pixel and line of code'
+      description: 'Every pixel with purpose. Every line of code with care.'
     },
     {
       icon: Heart,
@@ -50,21 +50,17 @@ const About: React.FC = () => {
                 <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></div>
                 <div className="pl-8">
                   <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
-                    Crafting Digital Magic
+                    Crafting Digital Dreams
                   </h3>
                   <p className="text-gray-300 leading-relaxed mb-6 text-lg">
-                    I'm a passionate full-stack developer with 6+ years of experience creating 
-                    innovative web applications. My journey began with curiosity about how websites work, 
-                    and evolved into a deep love for building seamless digital experiences.
+                    I'm a passionate front-end developer taking my first steps into the world of web development. With a strong foundation in HTML, CSS, and React, I enjoy building clean, responsive, and user-friendly interfaces that bring ideas to life in the browser.
                   </p>
                   <p className="text-gray-300 leading-relaxed mb-8 text-lg">
-                    I specialize in React, Node.js, and modern web technologies, but I'm always 
-                    eager to learn new tools and frameworks. When I'm not coding, you'll find me 
-                    sketching UI concepts, experimenting with new design trends, or contributing to open-source projects.
+                   My journey into front-end development started with curiosity and a love for visual creativity. Since then, I've been learning by doing—creating small projects, experimenting with layouts, and building interactive components to sharpen my skills.
                   </p>
                   
                   <div className="flex flex-wrap gap-3">
-                    {['React', 'TypeScript', 'Node.js', 'Python', 'GraphQL', 'AWS', 'Figma', 'Three.js'].map((tech) => (
+                    {['HTML', 'CSS', 'React', 'Python', 'C','TyepeScript'].map((tech) => (
                       <span
                         key={tech}
                         className="px-4 py-2 bg-gray-800 border border-gray-700 text-purple-300 rounded-lg text-sm font-medium hover:border-purple-500 hover:bg-gray-700 transition-all duration-300"
@@ -95,7 +91,7 @@ const About: React.FC = () => {
 
           {/* Stats Section */}
           <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[
+            {/*[
               { number: '50+', label: 'Projects Completed' },
               { number: '6+', label: 'Years Experience' },
               { number: '25+', label: 'Happy Clients' },
@@ -107,7 +103,7 @@ const About: React.FC = () => {
                 </div>
                 <div className="text-gray-400 text-sm font-medium">{stat.label}</div>
               </div>
-            ))}
+            ))*/}
           </div>
         </div>
       </div>

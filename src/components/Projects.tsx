@@ -4,65 +4,26 @@ import { ExternalLink, Github, Play } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'NeuroFlow AI Platform',
-      description: 'An AI-powered analytics dashboard with real-time data visualization, machine learning insights, and predictive modeling capabilities.',
-      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['React', 'Python', 'TensorFlow', 'D3.js', 'WebGL'],
-      category: 'AI/ML',
+      title: 'Spotify Clone',
+      description: 'A front-end clone of the Spotify web app built using React, Vite, TypeScript, and TailwindCSS. Created as a learning project to replicate Spotify’s modern UI and user experience.',
+      image: '/spotify_clone.png',
+      technologies: ['TypeScript', 'TailwindCSS', 'Html', 'React', 'Vite'],
+      category: 'Web Development',
       featured: true,
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      githubUrl: 'https://github.com/DHANU5675/Spotify'
     },
     {
-      title: 'CryptoVault DeFi',
-      description: 'Decentralized finance platform with yield farming, staking rewards, and advanced portfolio management tools.',
-      image: 'https://images.pexels.com/photos/8369648/pexels-photo-8369648.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Next.js', 'Solidity', 'Web3.js', 'Ethereum'],
-      category: 'Blockchain',
+      title: 'Health Connect',
+      description: 'A front-end web application built with React.js that allows users to browse medical departments and book doctor appointments. Designed with a focus on clean UI and intuitive navigation, this project showcases appointment booking flows and departmental categorization.',
+      image: '/health_connect..webp',
+      technologies: ['React', 'Html', 'CSS', 'JavaScript','TypeScript'],
+      category: 'Web Devleopment',
       featured: true,
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      githubUrl: 'https://github.com/DHANU5675/Health_Connect'
     },
-    {
-      title: 'Immersive AR Gallery',
-      description: 'Virtual art gallery with augmented reality features, 3D model viewing, and interactive exhibitions.',
-      image: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Three.js', 'WebXR', 'React', 'Blender'],
-      category: 'AR/VR',
-      featured: false,
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
-    },
-    {
-      title: 'CloudSync Collaboration',
-      description: 'Real-time collaboration platform with video conferencing, shared workspaces, and project management tools.',
-      image: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Vue.js', 'Socket.io', 'WebRTC', 'MongoDB'],
-      category: 'SaaS',
-      featured: false,
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
-    },
-    {
-      title: 'EcoTrack Sustainability',
-      description: 'Environmental impact tracking app with carbon footprint analysis, sustainability goals, and community challenges.',
-      image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['React Native', 'Node.js', 'PostgreSQL', 'Chart.js'],
-      category: 'Mobile',
-      featured: false,
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
-    },
-    {
-      title: 'Quantum Computing Simulator',
-      description: 'Interactive quantum computing simulator with visual circuit builder and educational resources.',
-      image: 'https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['TypeScript', 'WebAssembly', 'Canvas API', 'Rust'],
-      category: 'Education',
-      featured: false,
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
-    }
+
   ];
 
   const featuredProjects = projects.filter(p => p.featured);

@@ -27,8 +27,8 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: '22B91A04D0@SRKREC.AC.IN',
-      link: 'mailto:22B91A04D0@SRKREC.AC.IN',
+      value: 'landa.dhanu7@gmail.com',
+      link: 'mailto:landa.dhanu7@gmail.com',
       color: 'from-purple-500 to-blue-500'
     },
     {
@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
       icon: MapPin,
       title: 'Location',
       value: 'Narayanapuram, Ap',
-      link: 'https://www.google.com/maps/place/Narayanapuram,+Andhra+Pradesh/@16.5062,80.6483,12z',
+      link: 'https://www.google.com/maps/place/Narayanapuram,+Andhra+Pradesh/@16.8194722,81.4060000,17z',
       color: 'from-pink-500 to-rose-500'
     },
     {

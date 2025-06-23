@@ -1,74 +1,41 @@
 import React from 'react';
-import { Code, Palette, Database, Zap, Globe, Smartphone } from 'lucide-react';
+import { Code, Palette, Database, Zap, Globe, Smartphone, BellElectricIcon, ZapIcon } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const skillCategories = [
     {
-      icon: Code,
-      title: 'Frontend Development',
-      color: 'from-purple-500 to-blue-500',
-      skills: [
-        { name: 'React/Next.js', level: 95 },
-        { name: 'TypeScript', level: 92 },
-        { name: 'Vue.js', level: 85 },
-        { name: 'Tailwind CSS', level: 98 }
-      ]
-    },
-    {
-      icon: Database,
-      title: 'Backend Development',
-      color: 'from-green-500 to-teal-500',
-      skills: [
-        { name: 'Node.js', level: 90 },
-        { name: 'Python/Django', level: 85 },
-        { name: 'PostgreSQL', level: 88 },
-        { name: 'GraphQL', level: 82 }
-      ]
-    },
-    {
-      icon: Palette,
-      title: 'Design & UX',
-      color: 'from-pink-500 to-rose-500',
-      skills: [
-        { name: 'Figma', level: 90 },
-        { name: 'Adobe Creative Suite', level: 85 },
-        { name: 'UI/UX Design', level: 88 },
-        { name: 'Prototyping', level: 85 }
-      ]
-    },
-    {
-      icon: Zap,
-      title: 'DevOps & Tools',
-      color: 'from-orange-500 to-yellow-500',
-      skills: [
-        { name: 'AWS/Vercel', level: 80 },
-        { name: 'Docker', level: 75 },
-        { name: 'Git/GitHub', level: 95 },
-        { name: 'CI/CD', level: 78 }
-      ]
-    },
-    {
       icon: Globe,
       title: 'Web Technologies',
-      color: 'from-indigo-500 to-purple-500',
+      color: 'from-purple-500 to-blue-500',
       skills: [
-        { name: 'WebGL/Three.js', level: 75 },
-        { name: 'PWA Development', level: 85 },
-        { name: 'Web Performance', level: 90 },
-        { name: 'SEO Optimization', level: 82 }
+        { name: 'HTML', level: 92 },
+        { name: 'React', level: 75 },
+        { name: 'CSS', level: 85 },
+      
       ]
     },
     {
-      icon: Smartphone,
-      title: 'Mobile Development',
-      color: 'from-cyan-500 to-blue-500',
+      icon: Code,
+      title: 'Programming Languages',
+      color: 'from-green-500 to-teal-500',
       skills: [
-        { name: 'React Native', level: 80 },
-        { name: 'Flutter', level: 70 },
-        { name: 'Responsive Design', level: 95 },
-        { name: 'Mobile UX', level: 88 }
+        { name: 'Python', level: 90 },
+        { name: 'C', level: 85 },
+        { name: 'Java', level: 48 },
+        
       ]
-    }
+    },
+    {
+      icon: ZapIcon,
+      title: 'VLSI and Embeded Systems',
+      color: 'from-orange-500 to-yellow-500',
+      skills: [
+        { name: 'Verilog', level: 87 },
+        { name: 'Arduino', level: 75 },
+        { name: 'ESP32', level: 85 },
+      ]
+    },
+
   ];
 
   return (
