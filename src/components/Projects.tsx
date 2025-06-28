@@ -2,16 +2,27 @@ import React from 'react';
 import { ExternalLink, Github, Play } from 'lucide-react';
 
 const Projects: React.FC = () => {
-  const projects = [
+  type Project = {
+    title: string;
+    description: string;
+    image: string;
+    technologies: string[];
+    category: string;
+    githubUrl: string;
+    liveUrl?: string;
+    featured?: boolean;
+  };
+
+  const projects: Project[] = [
     {
       title: 'Spotify Clone',
       description: 'A front-end clone of the Spotify web app built using React, Vite, TypeScript, and TailwindCSS. Created as a learning project to replicate Spotify’s modern UI and user experience.',
       image: '/spotify_clone.png',
       technologies: ['TypeScript', 'TailwindCSS', 'Html', 'React', 'Vite'],
       category: 'Web Development',
-      featured: true,
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/DHANU5675/Spotify'
+      githubUrl: 'https://github.com/DHANU5675/Spotify',
+      featured: false,
+      //liveUrl: '', // Add your live URL if available
     },
     {
       title: 'Health Connect',
@@ -19,11 +30,20 @@ const Projects: React.FC = () => {
       image: '/health_connect..webp',
       technologies: ['React', 'Html', 'CSS', 'JavaScript','TypeScript'],
       category: 'Web Devleopment',
-      featured: true,
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/DHANU5675/Health_Connect'
+      githubUrl: 'https://github.com/DHANU5675/Health_Connect',
+      featured: false,
+      //liveUrl: '', // Add your live URL if available
     },
-
+    {
+      title: 'JobPortal Application',
+      description: 'A front-end web interface built with React.js for a comprehensive job portal platform. It enables seamless interaction between job seekers and recruiters through intuitive navigation and dynamic content rendering',
+      image: '/job_portal.jpg',
+      technologies: ['React', 'Html', 'CSS', 'JavaScript','TypeScript'],
+      category: 'Web Devleopment',
+      githubUrl: 'https://github.com/DHANU5675/Jobportal_Application',
+      featured: false,
+      //liveUrl: '', // Add your live URL if available
+    },
   ];
 
   const featuredProjects = projects.filter(p => p.featured);
