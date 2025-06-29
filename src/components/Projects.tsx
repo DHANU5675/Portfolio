@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
     {
       title: 'Spotify Clone',
       description: 'A front-end clone of the Spotify web app built using React, Vite, TypeScript, and TailwindCSS. Created as a learning project to replicate Spotify’s modern UI and user experience.',
-      image: '/spotify_clone.png',
+      image: '/photos/spotify_clone.png', // <-- Correct path
       technologies: ['TypeScript', 'TailwindCSS', 'Html', 'React', 'Vite'],
       category: 'Web Development',
       githubUrl: 'https://github.com/DHANU5675/Spotify',
@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
     {
       title: 'Health Connect',
       description: 'A front-end web application built with React.js that allows users to browse medical departments and book doctor appointments. Designed with a focus on clean UI and intuitive navigation, this project showcases appointment booking flows and departmental categorization.',
-      image: '/health_connect..webp',
+      image: '/photos/health_connect.png', // <-- Correct path
       technologies: ['React', 'Html', 'CSS', 'JavaScript','TypeScript'],
       category: 'Web Devleopment',
       githubUrl: 'https://github.com/DHANU5675/Health_Connect',
@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
     {
       title: 'JobPortal Application',
       description: 'A front-end web interface built with React.js for a comprehensive job portal platform. It enables seamless interaction between job seekers and recruiters through intuitive navigation and dynamic content rendering',
-      image: '/job_portal.jpg',
+      image: '/photos/job_portal.png', // <-- Correct path
       technologies: ['React', 'Html', 'CSS', 'JavaScript','TypeScript'],
       category: 'Web Devleopment',
       githubUrl: 'https://github.com/DHANU5675/Jobportal_Application',
@@ -122,15 +122,6 @@ const Projects: React.FC = () => {
                   
                   <div className="flex space-x-4">
                     <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center space-x-2 text-purple-400 hover:text-purple-300 transition-colors duration-200"
-                    >
-                      <ExternalLink size={16} />
-                      <span className="text-sm font-medium">Live Demo</span>
-                    </a>
-                    <a
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -176,14 +167,6 @@ const Projects: React.FC = () => {
                   
                   <div className="flex justify-between items-center">
                     <div className="flex space-x-2">
-                      <a
-                        href={project.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-purple-400 hover:text-purple-300 transition-colors duration-200"
-                      >
-                        <ExternalLink size={14} />
-                      </a>
                       <a
                         href={project.githubUrl}
                         target="_blank"
